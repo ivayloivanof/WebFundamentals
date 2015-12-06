@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        td {
+            width: 100px;
+            height: 100px;
+        }
+
+        td .nested {
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+<table align="center" border="1">
+    <thead>
+        <tr>
+            <th colspan="4"><h1>SoftUni Life</h1></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2" valign="top" align="left">Google</td>
+            <td colspan="2" valign="top" align="right">GitHub</td>
+        </tr>
+        <tr>
+            <td valign="top" align="center">FB</td>
+            <td align="left">GMail</td>
+            <td valign="bottom" align="center">YouTube</td>
+            <td align="left">2048</td>
+        </tr>
+        <tr>
+            <td valign="bottom" align="right">Food</td>
+            <td colspan="2" valign="bottom" align="left">Game</td>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td class="nested" align="center">Social Life</td>
+                    </tr>
+                    <tr>
+                        <td class="nested" align="center">Sleep</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" align="right"><strong>Beer &#62;</strong></td>
+            <td align="left">WC</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
