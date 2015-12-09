@@ -1,0 +1,74 @@
+body {
+    font-size: 15px;
+}
+
+#wrapper {
+    background-color: #00923E;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+table {
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+td {
+    min-width: 35px;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+th {
+    background-color: #F8C711;
+}
+
+tr {
+    background-color: #FFFFFF;
+}
+
+.gray {
+    background-color: #C8C8C8;
+}
+
+th {
+    height: 40px;
+    font-size: large;
+    font-weight: 700;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#cup {
+    margin: 0 auto;
+}
+
+.country {
+    width: 175px;
+}
+
+.country-right {
+    padding: 5px;
+    text-align: right;
+}
+
+img {
+    width: 25px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.country-left {
+    text-align: left;
+}
+
+.group {
+    width: 50px;
+    padding: 5px;
+}
+
+.result {
+    width: 50px;
+    padding: 5px;
+}
