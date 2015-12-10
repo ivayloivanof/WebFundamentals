@@ -1,0 +1,146 @@
+body {
+    font-family: Arial;
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+div#wrapper {
+    margin: 0 auto;
+    width: 900px;
+    background-image: url("colorful_dots_on_black.jpg");
+}
+
+body>header{
+    width: 100%;
+}
+
+body>header>table {
+    border-spacing: 0;
+    padding: 0;
+}
+
+#first {
+    width: 300px;
+    background-color: #ff0000;
+}
+
+#second {
+    width: 300px;
+    background-color: #008000;
+    color: #FFFF00;
+    text-align: center;
+}
+
+#third {
+    width: 300px;
+    background-color: #0000FF;
+}
+
+aside {
+    margin: 25px 0 0 10px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding:20px;
+    border-radius: 20px;
+}
+
+aside>nav>header {
+    font-size: 1.4em;
+    font-style: normal;
+}
+
+aside>nav>ul>li {
+    list-style-image:  url("ok.png");
+    margin-left: -18px;
+}
+
+aside>nav>ul>li>a {
+    color: #000000;
+}
+
+article{
+    width: 620px;
+    margin-left: 220px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding:10px;
+    border-radius: 20px;
+}
+
+article#red-article {
+    margin-top: 25px;
+}
+
+article>header#webColors {
+    background-color: #ff0000;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+
+article>div>em>span {
+    font-size: 3.5em;
+}
+
+article>footer>a {
+    margin: 5px 0 2px 0;
+    color: #968081;
+    font-style: italic;
+}
+
+article>header#webSafeColors {
+    background-color: #FFA500;
+    padding: 10px;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+
+article>header#RGB {
+    background-color: #FFFF00;
+    padding: 10px;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+
+article>header#RGBA {
+    background-color: #008000;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+
+article>header#\#HSLHSV {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+
+article>header#\#lorem {
+    background-color: #800080;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+
+article>span:lang(la) {
+    font-style: italic;
+    color: #35219A;
+}
+
+aside>nav>ul>li>a:hover {
+    background-color: #ff0000;
+}
