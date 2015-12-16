@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,100,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h2>Enter the system</h2>
+        <p>It is necessary to login in Your account in other to sign in for a course.</p>
+    </header>
+    <main>
+        <div id="left">
+            <h2>Are you new? <span>Register</span></h2>
+            <form action="post">
+                <input type="text" value="" placeholder="User Name"/>
+                <input type="text" value="" placeholder="Email"/>
+                <input type="password" value="" placeholder="Password"/>
+                <input type="password" value="" placeholder="Confirm Password"/>
+                <input id="reg-button" type="button" value="Register" />
+            </form>
+        </div>
+        <div id="right">
+            <h2>Already a student? <span>Login</span></h2>
+            <form action="post">
+                <input type="text" value="" placeholder="User Name"/>
+                <input type="password" value="" placeholder="Password"/>
+                <input type="checkbox" id="cb1" name="cb" />
+                <label for="cb1">Remember me?</label>
+                <input id="log-button" type="button" value="Login" />
+                <a href="index.html">Forgot Password?</a>
+            </form>
+        </div>
+    </main>
+</div>
+</body>
+</html>

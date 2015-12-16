@@ -1,0 +1,100 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 10px auto;
+    background-color: #EEEEEE;
+    color: #234465;
+    padding-bottom: 20px;
+}
+
+header {
+    margin: 10px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+p {
+    color: #000;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+#wrapper main h2 {
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+#wrapper main #left h2 {
+    color: #666666;
+}
+
+#wrapper main #right h2 {
+     color: #fff;
+}
+
+#wrapper main h2 span {
+    color: #234465;
+}
+
+#left {
+    width: 48%;
+    height: 360px;
+    border: none;
+    margin: 0 10px 10px 10px;
+}
+
+#right {
+    width: 48%;
+    height: 360px;
+    margin: -35% 10px 0 0;
+    background-color: #234465;
+    float: right;
+}
+
+input {
+    margin: 0 0 20px 20px;
+    color: #c2c2c2;
+    border-radius: 0;
+    border: solid 2px #c2c2c2;
+    width: 90%;
+    height: 30px;
+    display: block;
+}
+
+#reg-button {
+    margin: 0 0 20px 50%;
+    color: #234465;
+    border: solid 2px #234465;
+    width: 45%;
+    height: 40px;
+    border-radius: 0;
+    display: block;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+#log-button {
+    margin: 0 0 20px 50%;
+    color: #fff;
+    border: solid 2px #FF9C00;
+    width: 45%;
+    height: 40px;
+    border-radius: 0;
+    background-color: #234465;
+}
+
+a {
+    margin-right: 40px;
+    color: #fff;
+    float: right;
+}
