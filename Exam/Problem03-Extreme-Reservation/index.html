@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Free Account</title>
+	<link rel="stylesheet" href="reset.css" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<nav>
+				<ul>
+					<li><img src="Resources/Images/paraglider-icon.png" />Paragliding</li>
+					<li><img src="Resources/Images/sky-diver.png" />Skydiving</li>
+					<li><img src="Resources/Images/climbing.png" />Climbing</li>
+					<li><img src="Resources/Images/about-us.png" />About Us</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<article>
+				<p>Personal Info</p>
+				<form action="#" method="post">
+					<input type="text" name="name" value="Enter your full name">
+					<input type="text" name="email" value="Enter a valid e-mail">
+					<input type="tel" name="phone" value="Enter a phone number">
+				</form>
+			</article>
+			<article>
+				<p>Flight Info</p>
+				<form action="#" id="info" method="post">
+					<label for="flying">Are flying for first time?</label>
+					<span>
+						<input class="radio" type="radio" id="flying" name="Yes">Yes
+						<input class="radio" type="radio" name="No">No
+					</span>
+					<label for="destination">Choose Destination</label>
+					<select>
+						<option id="destination" value="dobrostan">Dobrostan</option>
+						<option value="sopot">Sopot</option>
+						<option value="sofia">Sofia</option>
+						<option value="bourgas">Bourgas</option>
+					</select>
+					<label for="date">Choose Destination</label>
+					<input type="date" id="date" name="name" value="Enter your full name">
+				</form>
+			</article>
+			<button id="green" type="button">Send</button>
+			<button type="reset">Clear</button>
+		</main>
+	</div>
+</body>
+</html>

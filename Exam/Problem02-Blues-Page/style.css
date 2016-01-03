@@ -1,0 +1,152 @@
+@font-face {
+	font-family: 'RicksAmericanNF';
+	src: url('Resources/Fonts/RicksAmericanNF.ttf');
+}
+
+body {
+	background-color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #F8A60C;
+	text-transform: uppercase;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 960px;
+}
+
+header > h1{
+	font-size: 60px;
+	font-family: RicksAmericanNF;
+	letter-spacing: 0.3em;
+	color: #FEA503;
+	text-align: center;
+	margin: 10px;
+}
+
+nav {
+	margin: 20px;
+}
+
+nav > ul {
+	list-style-type: none;
+}
+
+nav > ul > li {
+	display: inline-block;
+	width: 24%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-family: RicksAmericanNF;
+	font-size: 30px;
+}
+
+nav > ul > li:hover {
+	background-color: #F8A60C;
+	border-radius: 25px;
+	color: #F8A60C;
+	text-shadow: 2px 2px black;
+	cursor: pointer;
+}
+
+main {
+	background-color: #3C3C3C;
+	padding-top: 15px;
+	height: 720px;
+}
+
+.container {
+	width: 600px;
+	float: left;
+	display: inline-block;
+}
+
+article {
+	width: 600px;
+	display: inline-block;
+}
+
+aside {
+	width: 300px;
+	float: right;
+}
+
+main > .container > article > h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0 0 0 20px;
+	text-align: center;
+	text-shadow: 2px 2px #000;
+}
+
+main > .container > article > p {
+	text-align: justify;
+	text-transform: none;
+	text-shadow: 2px 2px #000;
+	margin-top: 10px;
+	word-spacing: 10px;
+}
+
+main > .container > article > p > a {
+	color: #F8A60C;
+	text-transform: none;
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	margin-top: 10px;
+}
+
+main > .container > article > img {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 10px 10px 10px 20px;
+}
+
+main > aside > div {
+	margin-top: 20px;
+	background-color: #3c3c3c;
+}
+
+main > aside > div > img {
+	display: block;
+	width: 82%;
+	margin: auto;
+	z-index: -1;
+	border-radius: 10px;
+	border: 1px solid #F8A60C;
+}
+
+main > aside > div > p {
+	display: block;
+	margin: auto;
+	position: relative;
+	line-height: 21px;
+	text-transform: none;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	font-weight: bold;
+	top: -22px;
+	width: 82%;
+	background-color: #636363;
+	opacity: 0.8;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+main > aside > div > p:hover {
+	cursor: pointer;
+	background-color: #F8A60C;
+	color: #000;
+	text-shadow: none;
+}
+
+footer > p {
+	text-align: center;
+	text-transform: none;
+	margin-top: 10px;
+	color: #E5B84F;
+}
